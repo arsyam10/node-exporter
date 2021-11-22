@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 
-node_exporter_version=0.18.1
+node_exporter_version=1.3.0
 
 #Create User
 adduser --no-create-home --disabled-login --shell /bin/false --gecos "Node Exporter User" node_exporter
